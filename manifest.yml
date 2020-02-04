@@ -1,0 +1,9 @@
+---
+applications:
+
+  - name: jco-poc
+    buildpacks:
+      - sap_java_buildpack
+    services:
+      - jco_poc_connection_service
+      - jco_poc_destination_service
